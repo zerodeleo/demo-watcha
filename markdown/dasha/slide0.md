@@ -1,1 +1,0 @@
-## React Hooks are simple JavaScript functions that we can use <br> to isolate the reusable part from a functional component. 

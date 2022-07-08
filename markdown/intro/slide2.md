@@ -1,5 +1,8 @@
-## AGENDA - HOOKS
-- Why do they exist?
-- What are they?
-- Hooks under the Hoods
-- Why should we use hooks?
+You answer the simple question: <br/> <br/>
+# Watcha thinking about?
+  <img style="opacity:0.7;" src="https://cdn.shopify.com/s/files/1/1061/1924/products/Earth_Globe_Americas_Emoji_grande.png?v=1571606063" width="80">
+<br />
+<br />
+... and then watcha connects <br/>
+you with other people who is <br/>
+thinks the same ...

@@ -5,11 +5,17 @@ Monokai style - ported by Luigi Maselli - http://grigio.org
 .hljs {
   display: block;
   overflow-x: auto;
-  padding: 0.5em;
-  background: #150818df;
-  color: #ddd;
-  border-radius: 10px;
-  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  padding: 0;
+  background: #ffffffdf;
+  color: rgb(139, 139, 139);
+  border-radius: 30px;
+  left: 0;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px inset, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px inset, rgba(0, 0, 0, 0.2) 0px -3px 0px;
+  
+}
+
+::-webkit-scrollbar {
+  display: none;
 }
 
 .hljs-tag,
@@ -18,7 +24,7 @@ Monokai style - ported by Luigi Maselli - http://grigio.org
 .hljs-literal,
 .hljs-strong,
 .hljs-name {
-  color: #db06e2;
+  color: #b9b0b9;
 }
 r
 .hljs-code {
@@ -51,7 +57,7 @@ r
 .hljs-variable,
 .hljs-template-tag,
 .hljs-template-variable {
-  color: #e2cd2e;
+  color: #bccea9;
 }
 
 .hljs-comment,

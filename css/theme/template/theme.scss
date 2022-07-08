@@ -40,12 +40,7 @@
  * HEADERS
  *********************************************/
 
-.reveal h1,
-.reveal h2,
-.reveal h3,
-.reveal h4,
-.reveal h5,
-.reveal h6 {
+.reveal h1 {
 	margin: var(--r-heading-margin);
 	color: var(--r-heading-color);
 
@@ -56,6 +51,24 @@
 
 	text-transform: var(--r-heading-text-transform);
 	text-shadow: var(--r-heading-text-shadow);
+
+	word-wrap: break-word;
+}
+
+.reveak h2,
+.reveal h3,
+.reveal h4,
+.reveal h5,
+.reveal h6 {
+	font-family: 'Stalemate';
+	margin: var(--r-heading-margin);
+	color: var(--r-heading-color);
+	font-weight: var(--r-heading-font-weight);
+	line-height: var(--r-heading-line-height);
+	letter-spacing: var(--r-heading-letter-spacing);
+
+	text-transform: var(--r-heading-text-transform);
+	text-shadow: 0 1px 0 rgb(0, 0, 0), 0 2px 0 #000000, 0 3px 0 rgb(0, 0, 0), 0 4px 0 #000000, 0 5px 0 rgb(0, 0, 0), 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 20px 20px rgba(0,0,0,.15);
 
 	word-wrap: break-word;
 }

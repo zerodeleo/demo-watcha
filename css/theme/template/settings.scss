@@ -18,13 +18,13 @@ $headingFont: 'League Gothic', Impact, sans-serif;
 $headingColor: #eee;
 $headingLineHeight: 1.2;
 $headingLetterSpacing: normal;
-$headingTextTransform: uppercase;
-$headingTextShadow: none;
+$headingTextTransform: none;
+$headingTextShadow: rgba(0, 0, 0, 0.4) 0px 2px 4px inset, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px inset, rgba(0, 0, 0, 0.2) 0px -3px 0px;
 $headingFontWeight: normal;
 $heading1TextShadow: $headingTextShadow;
 
-$heading1Size: 3.77em;
-$heading2Size: 2.11em;
+$heading1Size: 5.77em;
+$heading2Size: 3.11em;
 $heading3Size: 1.55em;
 $heading4Size: 1.00em;
 

@@ -30,8 +30,8 @@ $base01:    	#586e75;
 $base00:    	#657b83;
 $base0:     	#839496;
 $base1:     	#93a1a1;
-$base2:     	#eee8d5;
-$base3:     	#fdf6e3;
+$base2:     	#8d8888;
+$base3:     	#70706d;
 $yellow:    	#b58900;
 $orange:    	#cb4b16;
 $red:       	#dc322f;
@@ -40,24 +40,23 @@ $violet:    	#6c71c4;
 $blue:      	#268bd2;
 $cyan:      	#2aa198;
 $green:     	#859900;
-$cnbBg:				#250e2b;
-$cnbBg2:			#40194a;
-$cnbLink: 		#87349c;
-$cnbHeading: 	#e2c974;
+$cnbBg:				#dcbebe;
+$cnbBg2:			#fafafa;
+$cnbLink: 		#060606;
+$cnbHeading: 	#797979;
 
 // Override theme settings (see ../template/settings.scss)
-$mainFont: Ubuntu, 'sans-serif';
+$mainFont: 'Red Hat Display', 'sans-serif';
 $mainColor: $base2;
-$headingFont: 'Montserrat', Impact, sans-serif;
+$headingFont: 'Stalemate', Impact, sans-serif;
 $headingColor: $cnbHeading;
 $liColor: $base2;
-$headingTextShadow: none;
 $backgroundColor: linear-gradient(to bottom right, $cnbBg, $cnbBg2);
 $linkColor: $cnbLink;
 $linkColorHover: lighten( $linkColor, 20% );
 $selectionBackgroundColor: $magenta;
-$heading1TextShadow: 0 1px 0 #b09c5a, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 20px 20px rgba(0,0,0,.15);
-$headingTextShadow: 0 1px 0 rgb(0, 0, 0), 0 2px 0 #000000, 0 3px 0 rgb(0, 0, 0), 0 4px 0 #000000, 0 5px 0 rgb(0, 0, 0), 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 20px 20px rgba(0,0,0,.15);
+$heading1TextShadow: 1px 2px 0 #969696, 1px 7px 5px #aba8a8;
+$headingTextShadow: rgba(0, 0, 0, 0.4) 0px 2px 4px inset, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px inset, rgba(0, 0, 0, 0.2) 0px -3px 0px;
 
 // Change text colors against light slide backgrounds
 @include light-bg-text-color(#222);
